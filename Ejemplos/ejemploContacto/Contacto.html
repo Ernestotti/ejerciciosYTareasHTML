@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+ 
+    <title>Formulario de contacto</title>
+</head>
+<body>
+    
+    <form action="#" method="POST">
+        
+        <p>
+            <label for="nombre">Nombre: </label>
+            <input id="nombre" type="text"/>
+        </p>
+
+        <p>
+            <label for="apellido">Apellido: </label>
+            <input id="apellido" type="text"/>
+        </p>
+
+        <p>
+            <label for="email">Email: </label>
+            <input id="email" type="email"/>
+        </p>
+    
+        <p>
+            <label for="password">Password: </label>
+            <input id="password" type="password"/>
+        </p>
+
+        <p>
+            <label for="url">Url: </label>
+            <input id="url" type="url"/>
+        </p>
+
+        <p>
+            <label for="num_hijos">Nº hijos: </label>
+            <input id="num_hijos" type="number"/>
+        </p>
+
+        <p>
+            <label for="telefono">Teléfono: </label>
+            <input id="telefono" type="tel"/>
+        </p>
+
+        <p>
+            <label for="buscar">Buscar: </label>
+            <input id="buscar" type="search"/>
+        </p>
+        
+        <p>Aficiones:</p>
+        <p>
+            <input name="aficiones" id="af_cine" type="checkbox" value="c"/><label for="af_cine">Cine</label>
+            <input name="aficiones" id="af_musica" type="checkbox" value="m"/><label for="af_muica">Música</label>
+            <input name="aficiones" id="af_deporte" type="checkbox" value="d"/><label for="af_deporte">Deporte</label>
+            <input name="aficiones" id="af_lectura" type="checkbox" value="l"/><label for="af_lectura">Lectura</label>
+        </p>
+
+        <p>
+            <label for="color"></label><input id="color" type="color">
+        </p>
+
+        <p>
+            <label for="fecha_nacimiento">Fecha de nacimiento: </label>
+            <input id="ffecha_nacimiento" type="date">
+        </p>
+
+        <p>
+            <label for="archivo">Adjunta tu archivo: </label><input id ="archivo" type="file">
+        </p>
+
+        <p>Sexo: </p>
+        <p>
+            <input name="sexo" type="radio" value="h"><label for="s_h">Hombre</label>
+            <input name="sexo" type="radio" value="m"><label for="s_m">Mujer</label>
+        </p>
+
+        <p>
+            <label for="provincia">Provincia: </label>
+            <select id="provincia" name="provincia">
+                <option value="cs">Castellón</option>
+                <option value="vl">Valencia</option>
+                <option value="al">Alicante</option>
+            </select>
+        </p>
+        <p>
+            <input type="submit" value="correcto"/>
+            <input type="reset"/>
+        </p>
+
+    </form>
+
+</body>
+</html>
